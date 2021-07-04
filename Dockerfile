@@ -6,4 +6,4 @@ RUN yum -y update \
     && yum install -y wget curl git
 RUN wget -q https://raw.githubusercontent.com/linux-on-ibm-z/scripts/master/Kibana/7.12.1/build_kibana.sh
 
-RUN bash build_kibana.sh
+RUN build_kibana.sh
