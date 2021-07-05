@@ -7,4 +7,4 @@ RUN apt -y update \
 RUN cd ~/ && \
     wget -q https://raw.githubusercontent.com/linux-on-ibm-z/scripts/master/Kibana/7.12.1/build_kibana.sh \
     && chmod 775 ~/build_kibana.sh
-RUN cd ~/ && ls -ltr && echo y|./build_kibana.sh
+RUN cd ~/ && echo y|./build_kibana.sh
